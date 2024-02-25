@@ -1,56 +1,46 @@
 body {
-   background-color:antiquewhite;
-   margin-bottom: 20em;
-  
+    background-color: antiquewhite;
+    margin-bottom: 20em;
 }
 
 header {
     padding: 1em;
-position: relative;
-bottom: 0em;
-margin-bottom: 0em;
-margin-left: 0em;
-
-
+    position: relative;
+    bottom: 0em;
+    margin-bottom: 0em;
+    margin-left: 0em;
 }
 
 .headerlogo {
-display: flex;
-justify-content:start;
-
+    display: flex;
+    justify-content: start;
 }
 
-.logo img{
+.logo img {
     width: 5em;
     border-radius: 0em;
     float: left;
     margin-left: 5em;
-    
 }
 
 .socialmedia img {
     width: 2.3em;
-    border-radius: 1em ;
+    border-radius: 1em;
     float: left;
     margin-left: 1em;
-
 }
-
 
 h1 {
-    font-family:'Academy Engraved LET';
+    font-family: 'Academy Engraved LET';
     color: rgb(66, 65, 65);
     text-align: center;
-    
 }
 
-h2,h3, p{
+h2,
+h3,
+p {
     color: white;
-  
-
 }
-
-
 
 .image-DPB img {
     width: 15em;
@@ -66,10 +56,8 @@ h2,h3, p{
     position: relative;
     left: 8em;
     margin-left: 6em;
-    margin-bottom: -11em;
+    margin-bottom: -12em;
     margin-top: -4em;
-
-    
 }
 
 .drawing img {
@@ -77,84 +65,106 @@ h2,h3, p{
     height: 10em;
     margin-left: 2em;
     position: relative;
-    
+}
+
+.image-katafdruk img {
+    width: 15em;
+    height: 20em;
+    position: relative;
+    left: 0em;
+    bottom: 8em;
+    margin-bottom: -10em;
+    border-radius: 1em;
+    margin-top: -10em;
+}
+
+.image-katafdruk2 img {
+    width: 20em;
+    height: 15em;
+    position: relative;
+    left: 1em;
+    bottom: 8em;
+    margin-bottom: -10em;
+    border-radius: 1em;
+    margin-top: -10em;
+}
+
+.image-katafdruk3 img {
+    width: 20em;
+    height: 15em;
+    position: relative;
+    left: 1em;
+    bottom: 8em;
+    margin-bottom: -10em;
+    border-radius: 1em;
+    margin-top: -10em;
 }
 
 .image-PoezenBoot img {
     width: 18em;
     position: relative;
     left: 2em;
-    bottom: -4em;
+    bottom: 0em;
     margin-bottom: 0em;
     border-radius: 1em;
-    margin-top: -4em;
 }
 
-.mapsphoto img{
-    width: 8em;
+.mapsphoto img {
+    width: 10em;
     margin: 1.5em;
     margin-top: -5em;
 }
 
 .cattelefoon img {
-    width: 9em;
-    margin-left: 13em;
+    width: 10em;
+    height: 12em;
+    margin-left: 12em;
     margin-top: -6em;
 }
-
-
 
 .informatie {
     display: flex;
     justify-content: start;
     margin: 1em;
-    
 }
 
-.informatie1{
-    font-family:'Academy Engraved';
+.informatie1 {
+    font-family: 'Academy Engraved';
     padding: 0.5em;
-    background-color: rgb(185, 121, 0);
+    background-color: rgb(210, 143, 34);
     margin-top: 2em;
-    margin-bottom: 3em ;
+    margin-bottom: 3em;
     border-radius: 1em;
 }
 
-
-
-.informatie4{
-    font-family:'Academy Engraved';
+.informatie2 {
     padding: 0.5em;
-    background-color: rgb(0, 133, 124);
-    margin-top: 16em;
-    margin-bottom: 3em ;
-    border-radius: 1em;
-    
-}
-
-.informatie2{
-    padding: 0.5em;
-    background-color: rgb(0, 133, 124);
+    background-color: rgb(100, 170, 164);
     border-radius: 1em;
     margin-bottom: 8em;
     margin-top: 1em;
     margin-right: 1em;
     width: 10em;
-
-
 }
 
-.informatie3{
+.informatie3 {
     padding: 0.5em;
-    background-color: rgb(185, 121, 0);
+    background-color: rgb(210, 143, 34);
     border-radius: 1em;
     width: 10em;
     margin-top: 10em;
-    
-    
 }
 
-.katvlek img{
+.informatie4 {
+    font-family: 'Academy Engraved';
+    padding: 0.5em;
+    background-color: rgb(100, 170, 164);
+    margin-top: 16em;
+    margin-bottom: 3em;
+    border-radius: 1em;
+}
+
+.katvlek img {
     width: 9em;
     margin-left: 8em;
     margin-top: -4em;
@@ -166,13 +176,11 @@ h2,h3, p{
     border-radius: 1em;
 }
 
-
-
 .container {
     width: 100%;
     position: absolute;
     margin: 5em;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     overflow: hidden;
     left: 6.7em;
 }
@@ -181,68 +189,68 @@ h2,h3, p{
     width: 100%;
     display: flex;
     animation: slide 50s infinite;
-    
 }
 
 @keyframes slide {
     0% {
         transform: translateX(0);
     }
+
     25% {
         transform: translateX(0);
     }
+
     30% {
         transform: translateX(-100%);
     }
+
     50% {
         transform: translateX(-100%);
     }
+
     55% {
         transform: translate(-200%);
     }
+
     75% {
         transform: translateX(-200%);
     }
+
     100% {
         transform: translateX(-300%);
     }
-
-
 }
 
-.slider img{
+.slider img {
     width: 10em;
     margin-left: 1em;
 }
 
-
-nav ul{ 
-display: flex;       
-justify-content: space-between;
-flex-direction:row;
-list-style: none;
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    list-style: none;
 }
 
 li img {
     width: 2.5em;
-margin-right: 2.5em;
-position: relative;
-left: 0em;
-bottom: -1em;
-
+    margin-right: 2.5em;
+    position: relative;
+    left: 0em;
+    bottom: -1em;
 }
 
-a{
+a {
     text-decoration: underline;
-    color:black;
+    color: black;
 }
-
 
 .contact {
-    margin: 1em ;
+    margin: 1em;
     margin-top: -8em;
     padding: 0.5em;
-    background-color:rgb(185, 121, 0);
+    background-color: rgb(210, 143, 34);
     position: relative;
     left: 2em;
     width: 5em;
@@ -251,10 +259,10 @@ a{
 }
 
 .doneer {
-    margin: 1em ;
+    margin: 1em;
     margin-top: 2em;
     padding: 0.5em;
-    background-color:rgb(0, 133, 124);
+    background-color: rgb(100, 170, 164);
     position: relative;
     left: 7em;
     width: 5em;
@@ -262,18 +270,14 @@ a{
     border-radius: 1em;
 }
 
-
 footer {
     padding: 0.3em;
-    position:fixed;
-   left: 0;
-   right: 0;
+    position: fixed;
+    left: 0;
+    right: 0;
     bottom: 0;
     width: 100%;
-background-color: rgb(120, 129, 132);
-display: flex;
+    background-color: rgb(120, 129, 132);
+    display: flex;
 }
 
-.compas img {
-  width: 3.3em;
-}
